@@ -14,7 +14,7 @@ NOTE: Do not shut down the chromium that's laumched. The script has provision to
 
 The script produces a .json file by simply capturing the response of each API call under a unique key such as "dsp_stats", "conn_stats" etc. 
 
-A separate script, produce_xls_from_json.py, is used to convert this json data into an .XLS file. The separation helps us tweak the xls generation process independent of the data collection.
+A separate script, produce_xls.py, is used to convert this json data into an .XLS file. The separation helps us tweak the xls generation process independent of the data collection.
 
 --
 
