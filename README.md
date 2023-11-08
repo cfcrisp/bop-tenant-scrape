@@ -1,7 +1,7 @@
 # bop-tenant-scrape
 
 
-### Scrape Securiti tenants in BOP for usage stats.
+### Scrape Securiti tenants in BOP for usage stats. 
 
 - Use scrape_bop.py for all tenants. 
 - Use scrape_bop_tenant.py for specific tenants
@@ -9,7 +9,7 @@
 --
 
 ## How does it work:
-It launches Chromium via Selenium, waits for user to log into the BOP, then scrapes each "tenant summary" page. 
+It launches Chromium via Selenium, waits for user to log into the BOP, then scrapes each "tenant summary" page (or specific tenant summary pages). 
 
 The scraping is done by exercising the GET and POST calls that are issued for populating the tenant summary page.
 
