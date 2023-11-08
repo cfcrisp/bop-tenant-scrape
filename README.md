@@ -3,6 +3,9 @@
 
 ### Scrape Securiti tenants in BOP for usage stats.
 
+- Use scrape_bop.py for all tenants. 
+- Use scrape_bop_tenant.py for specific tenants
+
 --
 
 ## How does it work:
